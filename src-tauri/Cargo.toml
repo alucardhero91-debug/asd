@@ -1,0 +1,23 @@
+[package]
+name = "penerjemah-arab-indonesia"
+version = "1.0.0"
+description = "Aplikasi Penerjemah Bahasa Arab ke Bahasa Indonesia Profesional Berbasis Konteks & Kaidah Nahwu-Sharaf"
+authors = ["Bio66x"]
+edition = "2021"
+
+[lib]
+name = "penerjemah_arab_indonesia"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.6", features = [] }
+
+[dependencies]
+tauri = { version = "2.6", features = [] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]

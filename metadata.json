@@ -1,0 +1,6 @@
+{
+  "name": "Penerjemah Arab Indonesia",
+  "description": "Aplikasi penerjemah bahasa Arab ke bahasa Indonesia profesional berbasis pemahaman konteks kalimat dan tata bahasa, dilengkapi riwayat dan favorit luring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
